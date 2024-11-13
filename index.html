@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div style="display: flex; justify-content: center;">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.5BrwonF_9f0O_7bZ-XcJLQHaHa&pid=Api&P=0&h=220" alt="" height="100px" width="100px">
+</div>
+
+    <h1>Saylani Admission Portal</h1>
+    <div class="container">
+    <form action="#" method="post">
+            <h4 >Enter Your Name</h4>
+        <input  type="text" name="name" placeholder="Enter Your Name" required>
+        <h4>Enter Your DOB</h4>
+        <input  type="date" name="dob" placeholder="Enter Your Date Of Birth" required >
+        <h4>Enter Your Email</h4>
+        <input  type="text" name="Email" placeholder="Enter Your Email Address" required>
+        <h4>Enter Your Number</h4>
+        <input  type="tel" name="phone" placeholder="Enter Your Phone Number" required>
+        <h4>Enter Your Qualification</h4>
+        <input   type="text" name="HQ" placeholder="Enter Your Highest Qualification" required>
+        <h4>Enter Your Last Institution</h4>
+        <input  type="text" name="Institution" placeholder="Enter Name of Last Institution Attended" required>
+        <h4>Enter Your Graduation Year</h4>
+        <input  type="number" name="YOG" placeholder="Enter Your Year of Graduation" required><br><br>
+        <h2>Select Your Desired Program</h2>
+        <select name="courses" >
+            <option value="bachelors">Bachelor's Degree</option>
+            <option value="masters">Master's Degree</option>
+            <option value="diploma">Diploma</option>
+            <option value="certificate">Certificate</option>
+        </select><br><br>
+        <label><h3>Additional Courses/Workshops:</h3</label>
+            <div class="checkbox-group">
+                <input type="checkbox" class="c" id="webdev" name="webdev" value="Web Development">
+                <label for="webdev">Web Development Workshop</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" class="c" id="datasci" name="datasci" value="Data Science">
+                <label for="datasci">Data Science Course</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" class="c" id="cybersec" name="cybersec" value="Cybersecurity">
+                <label for="cybersec">Cybersecurity Workshop</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" class="c" id="ml" name="ml" value="Machine Learning">
+                <label for="ml">Machine Learning Course</label>
+            </div>
+            <hr>
+            <h4>Enter Your Address</h4>  
+        <input type="text" name="address" placeholder="Enter Your Permanent Address" required>
+        <h4>Enter Your City</h4>
+        <input type="text" name="city" placeholder="Enter Your City" required>
+        <h4>Enter Your Postal Code</h4>
+        <input type="text" name="Pc" placeholder="Enter Your Postal Code" required>
+            <button class="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
